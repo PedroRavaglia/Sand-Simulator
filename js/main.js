@@ -122,10 +122,10 @@ void main() {
             mix(0.75, 0.8, random( ipos + vec2(1.) )),
             mix(0.5, 0.6, random( ipos + vec2(2.) )), 1.) * mix(0.7, 1.0, 1.);
     else
-        fragColor = vec4(1.);
+        fragColor = vec4(0.53, 0.8, 0.9, 0.95);
 
     if (p.y > dim.y - 1. || p.x > dim.x )
-        fragColor = vec4(1.);
+        fragColor = vec4(0.53, 0.8, 0.9, 0.95);
 }`
 
 
